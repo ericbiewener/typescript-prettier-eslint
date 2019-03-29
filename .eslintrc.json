@@ -1,8 +1,5 @@
 {
   "extends": "plugin:@typescript-eslint/recommended",
   "plugins": ["@typescript-eslint"],
-  "parser": "@typescript-eslint/parser",
-  "rules": {
-    "@typescript-eslint/no-use-before-define": 0
-  }
+  "parser": "@typescript-eslint/parser"
 }
