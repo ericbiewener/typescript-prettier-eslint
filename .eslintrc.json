@@ -1,5 +1,10 @@
 {
-  "extends": "plugin:@typescript-eslint/recommended",
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+      "sourceType": "module"
+  },
   "plugins": ["@typescript-eslint"],
-  "parser": "@typescript-eslint/parser"
+  "rules": {
+      "@typescript-eslint/indent": "error"
+  }
 }
